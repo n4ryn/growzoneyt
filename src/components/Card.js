@@ -21,14 +21,15 @@ const Card = (props) => {
           className="rounded-xl"
           width={200}
           height={200}
+          priority
         />
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{title}</h2>
-        <p className="flex flex-col md:flex-row text-xl font-bold">
+        <div className="flex flex-col md:flex-row text-xl font-bold">
           <span className="line-through mr-2">{INR.format(originalPrice)}</span>
           <p> {INR.format(discountPrice)}</p>
-        </p>
+        </div>
         <div className="rating">
           <input
             type="radio"
