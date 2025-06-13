@@ -11,7 +11,7 @@ const Card = (props) => {
 
   return (
     <div className="card bg-base-100 w-full shadow-md/20 indicator">
-      <span className="indicator-item indicator-start h-10 text-white badge badge-error">
+      <span className="indicator-item indicator-start [--indicator-x:10%] [--indicator-y:10%] h-10 text-white badge bg-red-500">
         Sale !
       </span>
       <figure className="px-10 pt-10">
@@ -25,9 +25,9 @@ const Card = (props) => {
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title">{title}</h2>
-        <p className="text-xl font-bold">
+        <p className="flex flex-col md:flex-row text-xl font-bold">
           <span className="line-through mr-2">{INR.format(originalPrice)}</span>
-          {INR.format(discountPrice)}
+          <p> {INR.format(discountPrice)}</p>
         </p>
         <div className="rating">
           <input
@@ -66,11 +66,13 @@ const Card = (props) => {
             aria-current={rating === 5}
           />
         </div>
-        <div className="card-actions">
-          <button className="btn btn-primary btn-outline w-30">
-            Add to Cart
-          </button>
-          <button className="btn btn-primary w-30">Buy Now</button>
+        <div className="card-actions w-full">
+          <a
+            href={paymentLink}
+            className="btn bg-green-700 text-white w-full rounded-sm"
+          >
+            BUY NOW
+          </a>
         </div>
       </div>
     </div>

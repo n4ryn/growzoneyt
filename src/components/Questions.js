@@ -2,7 +2,7 @@ import { faqData } from "@/utils/constants";
 
 const Questions = () => {
   return (
-    <div className="p-10">
+    <div className="p-10 overflow-hidden">
       <h1 className="text-3xl font-bold text-center mb-10">
         Frequently Asked Questions
       </h1>

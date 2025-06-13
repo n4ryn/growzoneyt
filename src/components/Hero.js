@@ -2,7 +2,7 @@ import Countdown from "./Countdown";
 
 const Hero = () => {
   return (
-    <div className="my-10 flex flex-col items-center justify-center gap-10">
+    <div className="my-10 flex flex-col items-center justify-center gap-10 overflow-hidden">
       <iframe
         width="820"
         height="462"
@@ -11,7 +11,8 @@ const Hero = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
-        className="rounded-2xl"
+        // className="rounded-2xl"
+        className="rounded-2xl w-[380px] h-[262px] sm:[w-620px] sm:[h-362px] md:w-[820px] md:h-[462px]"
       ></iframe>
 
       <Countdown />
