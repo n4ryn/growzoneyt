@@ -15,6 +15,10 @@ const Hero = () => {
         className="rounded-2xl w-[380px] h-[262px] sm:[w-620px] sm:[h-362px] md:w-[820px] md:h-[462px]"
       ></iframe>
 
+      <p className="text-center text-4xl font-bold text-red-600">
+        Sale is <span className="text-white animate-ping">live!!!</span>
+      </p>
+
       <Countdown />
     </div>
   );

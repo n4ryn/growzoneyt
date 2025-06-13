@@ -12,7 +12,7 @@ export default function Home() {
       <Contact />
 
       <a
-        href="https://web.whatsapp.com/send?phone=+918005690443&amp;text=hi"
+        href="https://web.whatsapp.com/send?phone=+916378634966&amp;text=hi"
         target="_blank"
         className="tooltip tooltip-left fixed bottom-6 right-4 z-10"
         data-tip="Contact on WhatsApp"
