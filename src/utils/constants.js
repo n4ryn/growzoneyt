@@ -176,24 +176,21 @@ export const faqData = [
     title: "Why you should promote your Youtube videos?",
     content:
       "As you know, youtube has become the no.1 portal or website for sharing and making video content, Not even this it has become No.1 choice for content creators to share their content. Everyone is Creating channel on youtube to become youtube star. But so as to get famous, your channel must get good number of views. As a new creator its very hard to get views on channel, in that case paid promotions works. We have all types of plan for promoting your video likes Fast youtube views, slow youtube views & Indian youtube view, with which you can get real views for your youtube videos, It will Lead to increase in engagement on channel. Hence result your channel will start growing.",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
+    image: "/youtube.png",
   },
   {
     id: 2,
     title: "Is it safe to buy YouTube views for my videos?",
     content:
       "No Need to worry at all, Its totally 100% Safe to buy views from us. Because We provide100% Authentic and organic views with considering not to violate any Terms of Use (TOS) of the YouTube. You can Trust us blindly, Your youtube channel is 100% safe with us if you take youtube services from us because. Specially we don’t take any of your login details( Also make sure, never share login details with anyone else too) . To Provide views We just need your youtube Video URL, on which you want to buy views.",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
+    image: "/youtube.png",
   },
   {
     id: 3,
     title: "How to get views on youtube?",
     content:
       "You can get views on youtube by promoting your videos on social media platforms like Facebook, Twitter, Instagram, Tiktok, Snapchat, LinkedIn, WhatsApp, etc. You can also get views by collaborating with other creators on YouTube, YouTube channels, and YouTube videos. You can also get views by distributing your videos on YouTube, YouTube channels, and YouTube videos.",
-    image:
-      "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
+    image: "/youtube.png",
   },
 ];
 

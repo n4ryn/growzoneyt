@@ -11,7 +11,7 @@ const Card = (props) => {
 
   return (
     <div className="card bg-base-100 w-full shadow-md/20 indicator">
-      <span className="indicator-item indicator-start [--indicator-x:10%] [--indicator-y:10%] h-10 text-white badge bg-red-500">
+      <span className="indicator-item indicator-start [--indicator-x:0%] [--indicator-y:0%] h-10 text-white badge bg-red-500">
         Sale !
       </span>
       <figure className="px-10 pt-10">
@@ -25,11 +25,11 @@ const Card = (props) => {
         />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title">{title}</h2>
-        <div className="flex flex-col md:flex-row text-xl font-bold">
+        <h2 className="card-title text-sm font-extrabold">{title}</h2>
+        <p className="text-xs font-bold">
           <span className="line-through mr-2">{INR.format(originalPrice)}</span>
-          <p> {INR.format(discountPrice)}</p>
-        </div>
+          {INR.format(discountPrice)}
+        </p>
         <div className="rating">
           <input
             type="radio"
