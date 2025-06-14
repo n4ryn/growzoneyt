@@ -22,7 +22,16 @@ const Countdown = () => {
     const updateRemainingTime = () => {
       const elapsed = Date.now() - startTime;
       const newRemaining = COUNTDOWN_DURATION - elapsed;
-      setRemainingTime(newRemaining > 0 ? newRemaining : 0);
+
+      if (newRemaining <= 0) {
+        const newStartTime = Date.now();
+        localStorage.setItem(STORAGE_KEY, newStartTime.toString());
+        startTime = newStartTime;
+
+        setRemainingTime(COUNTDOWN_DURATION);
+      } else {
+        setRemainingTime(newRemaining);
+      }
     };
 
     updateRemainingTime();

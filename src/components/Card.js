@@ -15,14 +15,16 @@ const Card = (props) => {
         Sale !
       </span>
       <figure className="px-10 pt-10">
-        <Image
-          src={image}
-          alt="Shoes"
-          className="rounded-xl"
-          width={200}
-          height={200}
-          priority
-        />
+        {image && (
+          <Image
+            src={image}
+            alt="Shoes"
+            className="rounded-xl"
+            width={200}
+            height={200}
+            priority
+          />
+        )}
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title text-sm font-extrabold">{title}</h2>

@@ -199,7 +199,7 @@ export const aboutUsData = [
     id: 1,
     title: "Variety Of Services",
     content:
-      "Social media success doesn’t stop at just one platform. In order to reach your social media goals and take your brand to the next level, you need to make the most of all your metrics.",
+      "Social media success doesn’t stop at just one platform. To reach your goals and grow your brand, you need to optimize all key metrics across platforms.",
     image:
       "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
   },
@@ -207,7 +207,7 @@ export const aboutUsData = [
     id: 2,
     title: "Social Media Success",
     content:
-      "It can be tough to stand out in a sea of content! Stop playing into pesky and unfair algorithms and start creating the content you love.Our social media services give your content the boost it needs.",
+      "Standing out is tough. Skip the algorithm hassle and start creating content that gets seen. Our services help give your posts the boost they deserve.",
     image:
       "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
   },
@@ -215,7 +215,7 @@ export const aboutUsData = [
     id: 3,
     title: "High Quality, Low Prices",
     content:
-      "We know how important quality is when it comes to building your brand and investing in social media marketing services. Every service we offer is tested rigorously and only released when it meets our expectations.",
+      "We rigorously test all our services to ensure top-notch quality. You get only the best — at a price that fits your budget.",
     image:
       "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
   },

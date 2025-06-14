@@ -1,92 +1,87 @@
 const Page = () => {
   return (
-    <div className="p-10">
-      <h1 className="bg-base-200 text-4xl font-bold text-center py-10 px-4">
+    <div className="pb-10">
+      <h1 className="text-white text-4xl font-bold text-center py-10">
         Terms & Conditions
       </h1>
-      <p className="text-justify mt-4 font-regular text-lg">
-        Terms & Conditions Of H.D MOBILE WORK SHOPE
-        <br />
-        Visitors and users of monotization.com are requested to read through the
-        entire Terms and Conditions thoroughly before accessing and using the
-        site for their own good. Once you access and use H.D MOBILE WORK SHOPE,
-        it is automatically accepted that you agree to all the terms and
-        conditions mentioned here.
+      <p className="text-justify mt-4 font-regular text-lg p-4 md:p-10 bg-base-300 rounded-xl">
+        <strong>Terms & Conditions of GrowZoneYT</strong>
         <br />
         <br />
-        For the sake of better understanding, all words like ‘we’ and ‘our’
-        denote monotization.com and all words like ‘you’ and ‘your’ denote the
-        user and the visitor to this site.
+        Welcome to GrowZoneYT. By accessing or using our website, you agree to
+        be bound by the following Terms and Conditions. Please read them
+        carefully before proceeding.
         <br />
         <br />
-        The terms of monotization.com can change at any given point in time. The
-        updations and changes will reflect on the Terms and Conditions page as
-        soon as the changes are uploaded. You are requested to keep referring to
-        the Terms and Conditions every time you use this website.
+        Throughout this document, the terms “we”, “us”, and “our” refer to
+        GrowZoneYT, while “you” and “your” refer to users and visitors of this
+        website.
         <br />
         <br />
-        By accessing monotization.com you agree that you are of the permissible
-        age to access and use the services and products mentioned on this site.
+        GrowZoneYT reserves the right to update or modify these Terms &
+        Conditions at any time without prior notice. All changes will be
+        reflected on this page. It is your responsibility to review this page
+        regularly for any updates.
         <br />
-        By accessing monotization.com, you agree that you will not copy, publish
-        or reprint, or misuse any of the information or content mentioned on our
-        site.
         <br />
-        We strive to provide latest and updated information on our site.
+        By using GrowZoneYT, you confirm that you are of legal age to access our
+        content and services. You also agree not to reproduce, publish, or
+        misuse any part of the content provided on our site.
         <br />
-        monotization.com can revise the prices of our products and services
-        without prior notice. Similarly, any particular service or product,
-        partially or wholly, can be discontinued at any given point in time,
-        without any prior information.
         <br />
-        Our site might feature third-party links in order to facilitate you with
-        relevant information, content, product and services. However, we are not
-        liable for the quality of content, information, product and services
-        featured on such sites. You will use such external links and sites
-        solely on your responsibility.
+        We aim to keep all information on GrowZoneYT accurate and up to date.
+        However, we reserve the right to change prices, discontinue products or
+        services, and modify content at our sole discretion, without prior
+        notice.
         <br />
-        For all external links mentioned on our site, we have zero
-        responsibility in terms of any updations or modification done by the
-        third-party to their site, information, products and services.
         <br />
-        We have the right to cancel your order in case your order is deemed
-        unfit by us, as per our terms and conditions. In such cases, we will try
-        to notify you of the same at your registered email id and phone numbers.
-        You are thereby, requested to provide us with your updated information
-        at all times.
+        Our website may contain links to third-party websites to enhance your
+        browsing experience. We are not responsible for the content, policies,
+        or practices of these external sites. You use them at your own risk.
         <br />
-        Kindly refer the Privacy Policy for details related to our terms and
-        conditions pertaining to protection of your personal and private
-        information.
         <br />
-        You cannot use any information or content contained in monotization.com
-        for conducting an illegal activity or undertake any action that is
-        against the Laws of the Land. You are also prohibited to use any such
-        information contained in this site for infringing on the intellectual
-        property rights of any other living or dead person.
+        GrowZoneYT is not liable for any changes or updates made to third-party
+        sites linked on our platform.
         <br />
-        At no point in time can your comments and feedbacks on our site contain
-        abusive or offensive language that hurt the sentiments of any religion,
-        caste, creed, age, gender, nationality or sexual orientation.
         <br />
-        We do not guarantee that information, data and content contained in our
-        site are all correct, accurate, error-free and reliable.
+        We reserve the right to cancel any order or restrict access if it
+        violates our policies. In such cases, we will attempt to notify you via
+        your registered email or contact number. Please ensure your contact
+        details are accurate and up to date.
         <br />
-        monotization.com, its directors, employees, affiliates or service
-        providers are no ways responsible for any kind of loss or injury caused
-        to you or your business by use of our services, products and
-        information.
         <br />
-        By agreeing to this Terms and Condition, you indemnify monotization.com,
-        its directors and employees of any warranties, claims or any other such
-        demand.
+        For details on how we handle your personal information, please refer to
+        our Privacy Policy.
         <br />
-        Our website, monotization.com, is protected with Digital Millennium
-        Copyright Act (DMCA), Copyscape, copysentry. Our website’s content is
-        also copyrighted through Government of India’s copyright office, hence,
-        nobody should copy our content from our website. Those who violate this
-        policy, will be served with a Notice of Copyright Infringement, followed
-        by legal action.
+        <br />
+        You may not use GrowZoneYT for any unlawful activities or actions that
+        violate intellectual property rights or applicable laws. Any misuse will
+        result in appropriate action.
+        <br />
+        <br />
+        Any user-generated content (comments, feedback, etc.) must not include
+        offensive, abusive, or discriminatory language based on religion,
+        gender, nationality, or any other personal identifiers.
+        <br />
+        <br />
+        While we strive for accuracy, we do not guarantee that all information
+        on GrowZoneYT is completely error-free or reliable at all times.
+        <br />
+        <br />
+        GrowZoneYT and its team shall not be held responsible for any loss,
+        damage, or injury resulting from the use of our content, services, or
+        products.
+        <br />
+        <br />
+        By accepting these Terms, you agree to indemnify and hold harmless
+        GrowZoneYT, its team, and affiliates against any claims or liabilities
+        arising from your use of the website.
+        <br />
+        <br />
+        All content on GrowZoneYT is protected under applicable copyright laws,
+        including the DMCA and Indian Copyright Act. Unauthorized use or
+        reproduction of our content is strictly prohibited. Violators will be
+        subject to legal action.
       </p>
     </div>
   );

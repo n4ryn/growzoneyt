@@ -1,74 +1,69 @@
 const Page = () => {
   return (
-    <div className="p-10">
-      <h1 className="bg-base-200 text-4xl font-bold text-center py-10 px-4">
+    <div className="pb-10">
+      <h1 className="text-white text-4xl font-bold text-center py-10">
         Refund Policy
       </h1>
-      <p className="text-justify mt-4 font-regular text-lg">
-        Refund & Cancellation Policy – monotization.com
-        <br />
-        Refund Policy
-        <br />
-        Read our refund policy to understand whether you are eligible for a
-        refund or not.
+      <p className="text-justify mt-4 font-regular text-lg p-4 md:p-10 bg-base-300 rounded-xl">
+        <strong>Refund & Cancellation Policy – GrowZoneYT</strong>
         <br />
         <br />
-        As a customer at monotization, you are responsible to understand that we
-        provide impalpable goods / services that are irreversible / irrevocable.
-        At monotization, we take pride in our customer satisfaction and
-        world-class, quality Instagram services, and we stand behind our product
-        / service.
+        <strong>Refund Policy</strong>
+        <br />
+        Please read our refund policy carefully to understand if you are
+        eligible for a refund.
         <br />
         <br />
-        Contact our Reliable Customer Care Support
-        <br />
-        At Real Subscribers, we have a highly-skilled and professionally trained
-        customer support. We are usually able to solve the queries of our
-        customers through a simple email. You can reach out to us through email
-        and we will respond to resolve your query within 24-48 hours.
+        As a customer of GrowZoneYT, you acknowledge that we provide intangible
+        digital goods and services which are non-refundable and non-reversible.
+        However, we are committed to delivering quality services and ensuring
+        customer satisfaction.
         <br />
         <br />
-        Cancellation Policy
+        <strong>Customer Support</strong>
         <br />
-        Since monotization.com is offering non-tangible irrevocable goods, we do
-        not issue cancellation once the order processing has started. As a
-        customer, you are responsible for understanding this upon purchasing any
-        service at our site.
-        <br />
-        <br />
-        However, we realize that exceptional circumstances can take place with
-        regard to technical issues, in which case you can place a request for
-        refund to us.
+        GrowZoneYT offers dedicated and professional customer support. Most
+        issues can be resolved easily via email. Feel free to contact us, and we
+        will do our best to respond and resolve your query within 24–48 hours.
         <br />
         <br />
-        When you can request an eligible refund
+        <strong>Cancellation Policy</strong>
         <br />
-        Failure of order completion
-        <br />
-        There are times when our process takes longer to complete or / and is
-        unable to deliver the order, due to certain issues such as technical
-        errors in your Instagram handle, etc. In such cases, the customer is
-        eligible for full refund of the payment.
+        Since GrowZoneYT delivers non-tangible, irrevocable digital services,
+        cancellations are not accepted once an order is in process. You are
+        expected to understand this condition before making a purchase.
         <br />
         <br />
-        Product / services different from as described:
-        <br />
-        If you come across such issue, we recommend you to contact our customer
-        support within 24 hours and if you are able to produce evidence for the
-        same, we will provide you partial / full refund for your payment,
-        depending on how far along the process was.
+        That said, we understand that exceptional circumstances may
+        arise—particularly technical issues. In such cases, you may request a
+        refund under the conditions below.
         <br />
         <br />
-        When you are not eligible for a refund
+        <strong>Eligibility for Refund</strong>
         <br />
-        Likes / comments / Subscribers drop over time after order completion:
+        <em>1. Incomplete or failed delivery:</em>
         <br />
-        At monotization, we provide services of highest quality, hence, it is
-        highly unlikely for your services to decrease over time after completion
-        of order. However, if it so happens, we do not take responsibility for
-        the same, as there can be multiple reasons for your services to drop
-        off, such as low-quality content, or irregular uploads, change in
-        Instagram algorithm, etc.
+        If an order fails to complete due to technical issues—such as problems
+        with your account or other unexpected errors—you may be eligible for a
+        full refund.
+        <br />
+        <br />
+        <em>2. Services not as described:</em>
+        <br />
+        If the delivered service significantly differs from what was promised,
+        please contact our support team within 24 hours. If you can provide
+        clear evidence, a partial or full refund may be issued depending on the
+        order status.
+        <br />
+        <br />
+        <strong>Non-Refundable Situations</strong>
+        <br />
+        <em>Service drop after completion:</em>
+        <br />
+        While GrowZoneYT offers top-quality services, we do not take
+        responsibility for likes, comments, or subscribers dropping after
+        successful delivery. Drops may occur due to factors such as account
+        inactivity, low content quality, or platform algorithm changes.
       </p>
     </div>
   );
