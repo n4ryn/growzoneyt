@@ -1,19 +1,21 @@
 import { aboutUsData } from "@/utils/constants";
+import Image from "next/image";
 
 const Page = () => {
   return (
-    <div className="pb-10">
+    <div className="p-4 md:px-10 md:pb-10">
       <h1 className="text-white text-4xl font-bold text-center py-10">
         About Us
       </h1>
-      <div className="md:flex items-center justify-center gap-20 p-4 md:p-10 bg-base-100 rounded-xl">
+
+      <div className="bg-base-100 md:flex gap-4 items-center justify-center p-4 rounded-lg">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-          className="hidden md:block object-cover object-top md:w-1/2"
+          src="/about1.jpg"
+          className="hidden md:block w-2/5 rounded-xl"
           alt="Shoes"
         />
 
-        <p className="text-justify mt-4 font-regular text-lg md:w-1/2">
+        <p className="text-justify font-regular text-lg">
           Since 2018, GrowZoneYT has been a leader in the social media services
           industry. GrowZoneYT has continually evolved to meet the demands of
           savvy customers by launching an innovative marketplace that seamlessly
@@ -28,23 +30,29 @@ const Page = () => {
         </p>
       </div>
 
-      <h1 className="text-4xl text-white font-bold text-center py-10 px-4">
+      <h2 className="text-3xl text-white font-bold text-center py-10 px-4">
         Reason to choose us
-      </h1>
+      </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-4 md:p-10 bg-base-100 rounded-xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-base-100 p-4 rounded-xl">
         {aboutUsData.map((item) => (
           <div
             key={item.id}
-            className="card bg-base-100 w-full md:w-80 shadow-lg/30"
+            className="card bg-base-100 w-full shadow-md/30 hover:shadow-lg/30 border-1 border-blue-300"
           >
-            <figure>
-              <img
-                src={item.image}
-                className="object-cover object-top w-full h-60"
-                alt="Shoes"
-              />
+            <figure className="px-10 pt-10 h-3/4">
+              {item.image && (
+                <Image
+                  src={item.image}
+                  alt="Shoes"
+                  className="rounded-xl"
+                  width={200}
+                  height={200}
+                  priority
+                />
+              )}
             </figure>
+
             <div className="card-body">
               <h2 className="card-title">{item.title}</h2>
               <p>{item.content}</p>

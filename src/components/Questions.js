@@ -1,5 +1,4 @@
 import { faqData } from "@/utils/constants";
-import Image from "next/image";
 
 const Questions = () => {
   return (
@@ -15,7 +14,7 @@ const Questions = () => {
           {item.id % 2 === 1 && (
             <img
               src={item.image}
-              className="hidden md:block md:flex-2/5"
+              className="hidden md:block md:flex-2/5 w-2/5 rounded-lg"
               alt="image"
             />
           )}
@@ -26,7 +25,7 @@ const Questions = () => {
           {item.id % 2 === 0 && (
             <img
               src={item.image}
-              className="hidden md:block md:flex-2/5"
+              className="hidden md:block md:flex-2/5 w-2/5 rounded-lg"
               alt="image"
             />
           )}
