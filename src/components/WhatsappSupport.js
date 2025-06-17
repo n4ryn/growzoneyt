@@ -2,20 +2,20 @@
 import { useEffect, useState } from "react";
 
 const WhatsappSupport = () => {
+  const phoneNumber = "918005690443";
+  const text = "Hi, I want to enquire about growzoneyt services!";
+
   const [whatsAppLink, setWhatsAppLink] = useState(
-    "https://web.whatsapp.com/send?phone=+916378634966&text=hi"
+    `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`
   );
 
   useEffect(() => {
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-    const phoneNumber = "+916378634966";
-    const text = "hi";
-    if (isMobile) {
+    const isDesktop = !/iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isDesktop) {
       setWhatsAppLink(
-        `https://wa.me/${phoneNumber.replace(
-          /\D/g,
-          ""
-        )}?text=${encodeURIComponent(text)}`
+        `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+          text
+        )}`
       );
     }
   }, []);
