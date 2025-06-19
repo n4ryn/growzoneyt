@@ -10,8 +10,7 @@ export const servicesData = [
         rating: 4,
         originalPrice: 599,
         discountPrice: 139,
-        paymentLink:
-          "https://superprofile.bio/vp/youtube-subscriber-50-lifetime-guarantee-432",
+        paymentLink: "https://rzp.io/rzp/p7kMUnF",
       },
       {
         id: 2,
@@ -20,7 +19,7 @@ export const servicesData = [
         rating: 4,
         originalPrice: 699,
         discountPrice: 269,
-        paymentLink: "https://superprofile.bio/vp/eo8h3yV5",
+        paymentLink: "https://rzp.io/rzp/UrmE7mg",
       },
       {
         id: 3,
@@ -29,7 +28,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 2999,
         discountPrice: 1222,
-        paymentLink: "https://superprofile.bio/vp/5uP8TJGh",
+        paymentLink: "https://rzp.io/rzp/CsQSsuK",
       },
       {
         id: 4,
@@ -38,7 +37,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 7999,
         discountPrice: 1798,
-        paymentLink: "https://superprofile.bio/vp/AahC5R-0",
+        paymentLink: "https://rzp.io/rzp/37z5qLWe",
       },
     ],
   },
@@ -53,7 +52,7 @@ export const servicesData = [
         rating: 4,
         originalPrice: 8499,
         discountPrice: 2299,
-        paymentLink: "https://superprofile.bio/vp/nZfHSR8j",
+        paymentLink: "https://rzp.io/rzp/PnTnbYVW",
       },
       {
         id: 2,
@@ -62,7 +61,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 14999,
         discountPrice: 3899,
-        paymentLink: "https://superprofile.bio/vp/vPEIUCG2",
+        paymentLink: "https://rzp.io/rzp/77I81umX",
       },
       {
         id: 3,
@@ -71,7 +70,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 799,
         discountPrice: 294,
-        paymentLink: "https://superprofile.bio/vp/vPEIUCG2",
+        paymentLink: "https://rzp.io/rzp/osTAOtMO",
       },
       {
         id: 4,
@@ -80,7 +79,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 9999,
         discountPrice: 1978,
-        paymentLink: "https://superprofile.bio/vp/zBJ_itWQ",
+        paymentLink: "https://rzp.io/rzp/UxCMz4p",
       },
     ],
   },
@@ -95,7 +94,7 @@ export const servicesData = [
         rating: 4,
         originalPrice: 999,
         discountPrice: 399,
-        paymentLink: "https://superprofile.bio/vp/wtV1LBEi",
+        paymentLink: "https://rzp.io/rzp/bIWTg9s",
       },
       {
         id: 2,
@@ -104,7 +103,7 @@ export const servicesData = [
         rating: 4,
         originalPrice: 6999,
         discountPrice: 1759,
-        paymentLink: "https://superprofile.bio/vp/4Z2BjHTw",
+        paymentLink: "https://rzp.io/rzp/w29EYZ7",
       },
       {
         id: 3,
@@ -113,7 +112,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 999,
         discountPrice: 216,
-        paymentLink: "https://superprofile.bio/vp/s6yEbeCp",
+        paymentLink: "https://rzp.io/rzp/7WIVt13I",
       },
       {
         id: 4,
@@ -122,7 +121,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 599,
         discountPrice: 194,
-        paymentLink: "https://superprofile.bio/vp/E4akKHJx",
+        paymentLink: "https://rzp.io/rzp/tK7mSngd",
       },
     ],
   },
@@ -137,7 +136,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 2499,
         discountPrice: 799,
-        paymentLink: "https://superprofile.bio/vp/EAfSNLNp",
+        paymentLink: "https://rzp.io/rzp/gBc3D3Lq",
       },
       {
         id: 2,
@@ -146,7 +145,7 @@ export const servicesData = [
         rating: 4,
         originalPrice: 4999,
         discountPrice: 1599,
-        paymentLink: "https://superprofile.bio/vp/4GYnTxZy",
+        paymentLink: "https://rzp.io/rzp/rkYfDez2",
       },
       {
         id: 3,
@@ -155,7 +154,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 9999,
         discountPrice: 2999,
-        paymentLink: "https://superprofile.bio/vp/zz0TAo2d",
+        paymentLink: "https://rzp.io/rzp/i4L0QHW",
       },
       {
         id: 4,
@@ -164,7 +163,7 @@ export const servicesData = [
         rating: 5,
         originalPrice: 2999,
         discountPrice: 1799,
-        paymentLink: "https://superprofile.bio/vp/Dgs8AVMI",
+        paymentLink: "https://rzp.io/rzp/NgIfhsK",
       },
     ],
   },
